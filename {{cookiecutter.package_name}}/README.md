@@ -37,7 +37,7 @@ The following attributes are being used for development purposes:
 | Name | Affiliation | Role |
 | ---- | ----------- | ----- |
 
- 
+***
 
 # Getting Started
 
