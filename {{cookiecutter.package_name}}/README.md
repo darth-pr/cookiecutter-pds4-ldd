@@ -42,14 +42,22 @@ The following attributes are being used for ***development*** purposes:
 
 ## Useful Resources
 
+- [*Installing and Configuring LDDTool*](http://sbndev.astro.umd.edu/wiki/Installing_and_Configuring_LDDTool)
+- [*PDS Namespace Registry*](https://pds.jpl.nasa.gov/datastandards/schema/pds-namespace-registry.pdf)
+- [*PDS4 Released Schemas*](https://pds.jpl.nasa.gov/datastandards/schema/released/)
+- [*Documents Describing Planetary Data System version 4 (PDS4)*](https://pds.jpl.nasa.gov/datastandards/documents/)
 
 ## Building the {{ cookiecutter.dictionary_name }} 
+
+Building the dictionary requires that you have installed the [LDD Tool](https://pds.nasa.gov/tools/about/ldd/). 
 
 ```
 git clone {{ cookiecutter.package_url }}.git
 cd {{ cookiecutter.package_name }}
 python setup.py lddtool
 ```
+
+The outputs from running LDDTool are placed 'build' directory.
 
 ## Contributing
 
