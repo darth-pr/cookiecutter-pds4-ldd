@@ -1,0 +1,65 @@
+{
+    "dictionary_name": "TBD_dictionary_name",
+    "pds_standard": "PDS4",
+    "namespace_id": "TBD_namespace_id",
+    "namespace_version": "TBD_namespace_version",
+    "release_url": "https://pds.jpl.nasa.gov/datastandards/schema/released",
+    "dictionary_version": "TBD_dicationary_version",
+    "information_model_version": "TBD_information_model_version",
+    "dev_dictionary_version": "0.1.0.0",
+    "dev_information_model_version": "1.11.0.0",
+    "dictionary_release_date": "TBD_release_date",
+
+    "package_name": "ldd-{{ cookiecutter.namespace_id }}",
+    "package_url": "https://github.com/nasa-pds-data-dictionaries/{{ cookiecutter.package_name }}",
+    "package_version": "{{ cookiecutter.dev_dictionary_version}}",
+    "package_description": "The PDS4 {{ cookiecutter.dictionary_name }} Local Data Dictionary",
+    "author_name": "PDS Operator",
+    "author_email": "pds_operator@jpl.nasa.gov",
+
+    "schema_namespace": "http://pds.nasa.gov/pds4/{{ cookiecutter.namespace_id }}/{{ cookiecutter.namespace_version }}",
+    "governance_level": "Discipline",
+    "registration_authority": "0001_NASA_PDS_1",
+    "registration_date": "TBD_registration_date",
+    "registrar": "TBD_registrar",
+
+    "steward_name": "TBD_steward_name",
+    "steward_id": "TBD_steward_id",
+    "steward_lead": "TBD_steward_lead",
+
+    "artifact_repo_url": "https://pds.jpl.nasa.gov/datastandards/schema/released/{{ cookiecutter.namespace_id }}/{{ cookiecutter.namespace_version}}",
+
+    "information_model_alphanum_version": "{{ cookiecutter.information_model_version|replace('10','A')|replace('11','B')|replace('12','C')|replace('13','D')|replace('.','') }}",
+    "dev_information_model_alphanum_version": "{{ cookiecutter.dev_information_model_version|replace('10','A')|replace('11','B')|replace('12','C')|replace('13','D')|replace('.','') }}",
+
+    "dictionary_alphanum_version": "{{ cookiecutter.dictionary_version|replace('10','A')|replace('11','B')|replace('12','C')|replace('13','D')|replace('.','') }}",
+    "dev_dictionary_alphanum_version": "{{ cookiecutter.dev_dictionary_version|replace('10','A')|replace('11','B')|replace('12','C')|replace('13','D')|replace('.','') }}",
+
+    "combined_version":"{{ cookiecutter.information_model_alphanum_version }}_{{ cookiecutter.dictionary_alphanum_version }}",
+    "dev_combined_version":"{{ cookiecutter.dev_information_model_alphanum_version }}_{{ cookiecutter.dev_dictionary_alphanum_version }}",
+
+    "namespace_id_upper":"{{ cookiecutter.namespace_id|upper }}",
+
+    "root_filename": "{{ cookiecutter.pds_standard }}_{{ cookiecutter.namespace_id_upper }}_{{ cookiecutter.combined_version }}",
+    "dictionary_filename": "{{ cookiecutter.root_filename }}.JSON",
+    "schema_filename": "{{ cookiecutter.root_filename }}.xsd",
+    "schematron_filename": "{{ cookiecutter.root_filename }}.sch",
+    "dictionary_label_filename": "{{ cookiecutter.root_filename }}.xml",
+    "ingestldd_filename": "{{ cookiecutter.root_filename }}_IngestLDD.xml",
+
+    "dev_root_filename": "{{ cookiecutter.pds_standard }}_{{ cookiecutter.namespace_id_upper }}_{{ cookiecutter.dev_combined_version }}",
+    "dev_dictionary_filename": "{{ cookiecutter.dev_root_filename }}.JSON",
+    "dev_schema_filename": "{{ cookiecutter.dev_root_filename }}.xsd",
+    "dev_schematron_filename": "{{ cookiecutter.dev_root_filename }}.sch",
+    "dev_dictionary_label_filename": "{{ cookiecutter.dev_root_filename }}.xml",
+    "dev_ingestldd_filename": "{{ cookiecutter.dev_root_filename }}_IngestLDD.xml",
+
+    "ingestldd_repo_filename": "{{ cookiecutter.pds_standard }}_{{ cookiecutter.namespace_id|upper }}_IngestLDD.xml",
+    "schema_repo_filename": "{{ cookiecutter.pds_standard }}_{{ cookiecutter.namespace_id_upper }}.xsd",
+    "schematron_repo_filename": "{{ cookiecutter.pds_standard }}_{{ cookiecutter.namespace_id_upper }}.sch",
+
+    "pds4_schematron_filename": "PDS4_PDS_{{ cookiecutter.dev_information_model_alphanum_version }}.sch",
+    "pds4_schema_filename": "PDS4_PDS_{{ cookiecutter.dev_information_model_alphanum_version }}.xsd",
+     
+    "issue": "{{ cookiecutter.package_name|upper }}"
+}
