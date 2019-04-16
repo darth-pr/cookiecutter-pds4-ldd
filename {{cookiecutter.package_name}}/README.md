@@ -56,7 +56,7 @@ python setup.py lddtool
 
 ### Stewards
 
-Stewards of the {{ cookiecutter.dictionary_name }} can commit directly to the dictionary repository but should generally follow the same process as the community. They also determine when, how, or whether a community patch gets merged back into the [canonical dictionary repository]({{ cookiecutter.package_url }}). In order to commit to this repository one needs to be part of the [PDS dictionary stewards](https://github.com/orgs/nasa-pds-data-dictionaries/teams/pds-dictionary-stewards) and listed in the [Stewards](###current-stewards).
+Stewards of the {{ cookiecutter.dictionary_name }} can commit directly to the dictionary repository but should generally follow the same process as the community. They also determine when, how, or whether a community patch gets merged back into the [canonical dictionary repository]({{ cookiecutter.package_url }}). In order to commit to this repository one needs to be part of the [PDS dictionary stewards](https://github.com/orgs/nasa-pds-data-dictionaries/teams/pds-dictionary-stewards) and listed in the [Current Stewards](#Current-Stewards).
 
 
 ### Community
