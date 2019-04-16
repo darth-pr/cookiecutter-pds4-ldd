@@ -31,7 +31,7 @@ The following attributes are being used for ***development*** purposes:
 - Steward Id: {{ cookiecutter.steward_id }}
 - Steward Lead: {{ cookiecutter.steward_lead }}
 
-### Stewards {#stewards-table}
+### Steward List
 
 | Name | Affiliation | Role |
 | ---- | ----------- | ----- |
@@ -56,7 +56,7 @@ python setup.py lddtool
 
 ### Stewards
 
-Stewards of the {{ cookiecutter.dictionary_name }} can commit directly to the dictionary repository but should generally follow the same process as the community. They also determine when, how, or whether a community patch gets merged back into the [canonical dictionary repository]({{ cookiecutter.package_url }}). In order to commit to this repository one needs to be part of the [PDS dictionary stewards](https://github.com/orgs/nasa-pds-data-dictionaries/teams/pds-dictionary-stewards) and listed in the [Stewards](#stewards-table).
+Stewards of the {{ cookiecutter.dictionary_name }} can commit directly to the dictionary repository but should generally follow the same process as the community. They also determine when, how, or whether a community patch gets merged back into the [canonical dictionary repository]({{ cookiecutter.package_url }}). In order to commit to this repository one needs to be part of the [PDS dictionary stewards](https://github.com/orgs/nasa-pds-data-dictionaries/teams/pds-dictionary-stewards) and listed in the [Stewards](#stewards-list).
 
 
 ### Community
