@@ -3,7 +3,7 @@
 The {{ cookiecutter.dictionary_name }} contains high level classes and attributes ...
 
 This is a development repository for the {{ cookiecutter.dictionary_name }} LDD. The official releases of the {{ cookiecutter.dictionary_name }} LDD 
-are available at <{{ cookiecutter.release_url }}>. Development releases are available at <{{ cookiecutter.package_url }}/releases }}. 
+are available at <{{ cookiecutter.release_url }}>. Development releases are available at <{{ cookiecutter.package_url }}/releases>. 
 
 # {{ cookiecutter.dictionary_name }} LDD
 
