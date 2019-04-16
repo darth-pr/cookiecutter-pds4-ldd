@@ -25,14 +25,13 @@ The following attributes are being used for ***development*** purposes:
 - Registration Date: {{ cookiecutter.registration_date }}
 - Registrar: {{ cookiecutter.registrar }}
 
-
 ## Stewardship
 
 - Steward Name: {{ cookiecutter.steward_name }}
 - Steward Id: {{ cookiecutter.steward_id }}
 - Steward Lead: {{ cookiecutter.steward_lead }}
 
-### Stewards
+### Stewards {#stewards-table}
 
 | Name | Affiliation | Role |
 | ---- | ----------- | ----- |
@@ -46,23 +45,23 @@ The following attributes are being used for ***development*** purposes:
 
 ## Building the {{ cookiecutter.dictionary_name }} 
 
-PDS4 Schema and Schematron Files
-
+```
+git clone {{ cookiecutter.package_url }}.git
+cd {{ cookiecutter.package_name }}
+python setup.py lddtool
+```
 
 ## Contributing
 
 
 ### Stewards
 
-https://github.com/orgs/nasa-pds-data-dictionaries/teams/pds-dictionary-stewards
+Stewards of the {{ cookiecutter.dictionary_name }} can commit directly to the dictionary repository but should generally follow the same process as the community. They also determine when, how, or whether a community patch gets merged back into the [canonical dictionary repository]({{ cookiecutter.package_url }}). In order to commit to this repository one needs to be part of the [PDS dictionary stewards](https://github.com/orgs/nasa-pds-data-dictionaries/teams/pds-dictionary-stewards) and listed in the [Stewards](#stewards-table).
 
 
 ### Community
 
-Contributions from the community are welcomed! These contributions will not be a part of an official releases until they pass PDS4 Data Dictionary 
-Release Process. Before official release any community contirbution may be reverted. At the discretion of the steward(s) the requested 
-changes will be merged, altered, or rejected into the the development version of the LDD. Please submit a patch or file an issue following the 
-process described below.
+Contributions from the community are welcomed! These contributions will not be a part of an official releases until they pass PDS4 Data Dictionary Release Process. Before official release any community contirbution may be reverted. At the discretion of the steward(s) the requested changes will be merged, altered, or rejected into the the development version of the LDD. Please submit a patch or file an issue following the process described below.
 
 
 ### Submitting a Patch
@@ -126,7 +125,7 @@ latest information on known issues and recent bug fixes and enhancements.
 
 ***
 
-# Dictionary Releases
+# {{ cookiecutter.dictionary_name }} Dictionary Releases
 
 ## Latest Release:
 
