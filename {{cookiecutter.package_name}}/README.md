@@ -9,10 +9,10 @@ are available at <{{ cookiecutter.release_url }}>. Development releases are avai
 
 ## Dicationary Attributes
 
-The following attributes are being used for development purposes: 
+The following attributes are being used for ***development*** purposes: 
 
-- Development Information Model Version: {{ cookiecutter.dev_information_model_version }} 
-- Development Dictionary Version: {{ cookiecutter.dev_dictionary_version }}
+- Information Model Version: {{ cookiecutter.dev_information_model_version }} 
+- Dictionary Version: {{ cookiecutter.dev_dictionary_version }}
 
 
 ## Namespace Attributes
@@ -123,6 +123,8 @@ If you encounter errors in {{ cookiecutter.package_name }} or want to suggest an
 feature, please visit the {{ cookiecutter.package_name }} issue tracker 
 https://github.com/nasa-pds-data-dictionaries/{{ cookiecutter.package_name }}/issues.  There you can also find the
 latest information on known issues and recent bug fixes and enhancements.
+
+***
 
 # Dictionary Releases
 
