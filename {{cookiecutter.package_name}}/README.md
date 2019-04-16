@@ -11,8 +11,8 @@ are available at <{{ cookiecutter.release_url }}>. Development releases are avai
 
 The following attributes are being used for development purposes: 
 
-Development Information Model Version: {{ cookiecutter.dev_information_model_version }} 
-Development Dictionary Version: {{ cookiecutter.dev_dictionary_version }}
+- Development Information Model Version: {{ cookiecutter.dev_information_model_version }} 
+- Development Dictionary Version: {{ cookiecutter.dev_dictionary_version }}
 
 
 ## Namespace Attributes
